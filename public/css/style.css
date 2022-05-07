@@ -1,0 +1,42 @@
+.theTitle h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.theTitle h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #a8cb38;
+}
+.theTitle h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: absolute;
+    margin-top: 22px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -7px;
+    /* margin-left: -50px; */
+    background-color: #a8cb38;
+    justify-content: center;
+    align-items: center;
+}
